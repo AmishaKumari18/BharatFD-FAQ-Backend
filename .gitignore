@@ -1,0 +1,34 @@
+# 🔹 General Node.js & React Ignore
+node_modules/
+npm-debug.log
+yarn.lock
+.env
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# 🔹 React Build Files
+faq-frontend/build/
+faq-frontend/.eslintcache
+faq-frontend/coverage/
+faq-frontend/web-vitals.d.ts
+
+# 🔹 Django & Python Ignore
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
+*.sqlite3
+*.log
+local_settings.py
+*.mo
+*.pot
+
+# 🔹 Django Migrations (Keep only in version-controlled environments)
+faq_app/migrations/
+
+# 🔹 Ignore system files
+Thumbs.db
+*.bak
+*.swp
