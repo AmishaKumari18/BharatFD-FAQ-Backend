@@ -7,7 +7,7 @@ A **full-stack** multilingual FAQ management system built with **Django REST Fra
 ✅ **WYSIWYG Editor** using `django-ckeditor` for formatting FAQ answers  
 ✅ **Automatic Translations** using `googletrans` for Hindi and Bengali  
 ✅ **Caching with Redis** for faster responses  
-✅ **Admin Panel** to manage FAQs  
+✅ **Admin Panel** to manage FAQs (CRUD operation) 
 ✅ **Unit Tests** using `pytest` for models and API validation  
 ✅ **Linting** with `flake8` (Python) and `ESLint` (JavaScript)  
 ✅ **Docker & Docker Compose** for easy deployment  
@@ -98,8 +98,6 @@ Services:
 | `GET` | `/api/faqs/?lang=hi` | Fetch FAQs in Hindi |
 | `GET` | `/api/faqs/?lang=bn` | Fetch FAQs in Bengali |
 | `POST` | `/api/faqs/` | Create a new FAQ |
-| `PUT` | `/api/faqs/{id}/` | Update an FAQ |
-| `DELETE` | `/api/faqs/{id}/` | Delete an FAQ |
 
 ### **Example: Create an FAQ**
 ```sh
