@@ -28,6 +28,11 @@ cd BharatFD-FAQ-Backend
 ```sh
 cd FAQ_Backend
 ```
+#### **🔹 Create Virual Environment**
+```sh
+python -m venv venv
+venv\Scripts\activate
+```
 #### **🔹 Install Python Dependencies**
 ```sh
 pip install -r requirements.txt
